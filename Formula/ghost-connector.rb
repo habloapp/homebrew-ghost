@@ -1,7 +1,7 @@
 class GhostConnector < Formula
   desc "Ghost Networks Connector — always-on WireGuard tunnel agent for any device"
   homepage "https://gh-o.net"
-  version "0.31.0"
+  version "0.32.0"
   license "Proprietary"
 
   on_macos do
