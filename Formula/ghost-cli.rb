@@ -1,7 +1,7 @@
 class GhostCli < Formula
   desc "CLI for Ghost Networks — manage networks, devices, and WireGuard tunnels"
   homepage "https://gh-o.net"
-  version "0.32.0"
+  version "0.33.0"
   license "Proprietary"
 
   on_macos do
