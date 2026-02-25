@@ -1,23 +1,23 @@
 class GhostCli < Formula
   desc "CLI for Ghost Networks — manage networks, devices, and WireGuard tunnels"
   homepage "https://gh-o.net"
-  version "0.31.0"
+  version "0.32.0"
   license "Proprietary"
 
   on_macos do
     url "https://ghost-pull-zone.b-cdn.net/d/cli/#{version}/macos/ghost-cli.tar.gz"
-    sha256 "3c80fa5392d47abadbe2d055c40d0a855c65fcc8395c167dd98448b34a038197"
+    sha256 "8211a11a6cc4a0f3508f550d206645f430905e82ea81bfcf43ca21973c8bdc94"
   end
 
   on_linux do
     on_intel do
       url "https://ghost-pull-zone.b-cdn.net/d/cli/#{version}/linux-x64/ghost-cli.tar.gz"
-      sha256 "adad915e370ead11646f33f8ba1557a084742d8e6f44ef6e4dafd40efa595633"
+      sha256 "4be982f652d004efa1ebb9ff1586469c343911f919041a83864654467e79b8c0"
     end
 
     on_arm do
       url "https://ghost-pull-zone.b-cdn.net/d/cli/#{version}/linux-arm64/ghost-cli.tar.gz"
-      sha256 "1c93099ab449e1d6c473ca949d6a78088bdf95851b40221b215f01422908d64d"
+      sha256 "cd86a63dc05995765fbaba5b7ee2014160f3b54bdf83dcc93bcdcef587a8e195"
     end
   end
 
