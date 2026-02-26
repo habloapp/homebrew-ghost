@@ -6,18 +6,18 @@ class GhostCli < Formula
 
   on_macos do
     url "https://ghost-pull-zone.b-cdn.net/d/cli/#{version}/macos/ghost-cli.tar.gz"
-    sha256 "62fda05c4fd9e38f25fccac63d862632f4b32f0acff88fce085f224c63fceca0"
+    sha256 "ea2fa44ad636cfc068f4366cd5ebb10a7c881b76d59dd1b1c6706d7cbb58fc87"
   end
 
   on_linux do
     on_intel do
       url "https://ghost-pull-zone.b-cdn.net/d/cli/#{version}/linux-x64/ghost-cli.tar.gz"
-      sha256 "384fbcb4b53dd970563f25c03b0e9fc8a1373c6e973d653eff7125e376abf40d"
+      sha256 "9a7b982d2695629fa75129ad0c9338d797848baf1112608bccce92a9ff99d1d5"
     end
 
     on_arm do
       url "https://ghost-pull-zone.b-cdn.net/d/cli/#{version}/linux-arm64/ghost-cli.tar.gz"
-      sha256 "6314a55e43fccc485197f9a2d891f2a7a5ab6fc28cebec1e5139901cdd1e14a3"
+      sha256 "80885f56d94b535cd63cbfef910188128bf28ba57598df4f38b5954a7fcfebbe"
     end
   end
 
