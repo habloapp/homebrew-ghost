@@ -1,23 +1,23 @@
 class GhostConnector < Formula
   desc "Ghost Networks Connector — always-on WireGuard tunnel agent for any device"
   homepage "https://gh-o.net"
-  version "0.38.0"
+  version "0.39.0"
   license "Proprietary"
 
   on_macos do
     url "https://ghost-pull-zone.b-cdn.net/d/connector/#{version}/macos-arm64/ghost-connector.tar.gz"
-    sha256 "d376e96524a5d7bcdb18ac25236e95bd6c5be9908140430947a5b9eb9406e4d9"
+    sha256 "cc1d5a654fca5aa90dcb760e23abbe695204c3a98ceef6fd65b563ae7ef17846"
   end
 
   on_linux do
     on_intel do
       url "https://ghost-pull-zone.b-cdn.net/d/connector/#{version}/linux-x64/ghost-connector.tar.gz"
-      sha256 "73a8df8a4feb256ed952401a3df8fd6e465473cc5168b0c154e50c24952cee0d"
+      sha256 "f8de59913560966ad73cdefe1afc28d9e52d1ef5ef0f301a582543424af7b3c6"
     end
 
     on_arm do
       url "https://ghost-pull-zone.b-cdn.net/d/connector/#{version}/linux-arm64/ghost-connector.tar.gz"
-      sha256 "12491e60a092356c1c2a17049e9f3480c85396fc8b92f426f8a264c01f3821f8"
+      sha256 "a390bbfd2b84c74c995f40b0f75b44feee386e26739030b3b98d8d468f7213f9"
     end
   end
 
